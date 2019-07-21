@@ -727,6 +727,15 @@
             "locale": "zh-CN"
           }
         }
+      },
+      "UiPathTeam.AttendedRobotStatus.Activities/1.0.30": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/AttendedRobotStatus.dll": {}
+        }
       }
     }
   },
@@ -1611,6 +1620,17 @@
         "uipath.word.activities.1.3.2.nupkg.sha512",
         "uipath.word.activities.nuspec"
       ]
+    },
+    "UiPathTeam.AttendedRobotStatus.Activities/1.0.30": {
+      "sha512": "jyim2lxRkFM/pmwqOYilsi6dehW1QqRfrF9yb0CQeRH75OddXBL1lIFYJgdjZDXNno1y7WbAklJmexZaKceBSQ==",
+      "type": "package",
+      "path": "uipathteam.attendedrobotstatus.activities/1.0.30",
+      "files": [
+        ".nupkg.metadata",
+        "lib/AttendedRobotStatus.dll",
+        "uipathteam.attendedrobotstatus.activities.1.0.30.nupkg.sha512",
+        "uipathteam.attendedrobotstatus.activities.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1622,7 +1642,8 @@
       "UiPath.MicrosoftOffice365.Activities >= 0.2.0 <= 0.2.0",
       "UiPath.System.Activities >= 19.7.0 <= 19.7.0",
       "UiPath.UIAutomation.Activities >= 19.7.0 <= 19.7.0",
-      "UiPath.Word.Activities >= 1.3.2 <= 1.3.2"
+      "UiPath.Word.Activities >= 1.3.2 <= 1.3.2",
+      "UiPathTeam.AttendedRobotStatus.Activities >= 1.0.30 <= 1.0.30"
     ]
   },
   "packageFolders": {
@@ -1673,6 +1694,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[1.3.2, 1.3.2]"
+          },
+          "UiPathTeam.AttendedRobotStatus.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.30, 1.0.30]"
           }
         }
       }

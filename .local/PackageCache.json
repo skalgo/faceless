@@ -139,11 +139,11 @@
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AbbyyFRECommon.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.AzureComputerVision.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Core.dll",
-        "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.GoogleCloud.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Microsoft.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.MicrosoftCloud.dll",
-        "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll"
+        "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.Tesseract.dll",
+        "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.vision/1.6.1\\lib/net452/UiPath.Vision.dll"
       ]
     },
     {
@@ -156,6 +156,15 @@
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.word.activities/1.3.2\\lib/net452/UiPath.Word.Activities.Design.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.word.activities/1.3.2\\lib/net452/UiPath.Word.Activities.dll",
         "C:\\Users\\Vishesh\\.nuget\\packages\\uipath.word.activities/1.3.2\\lib/net452/UiPath.Word.dll"
+      ]
+    },
+    {
+      "Package": {
+        "Id": "UiPathTeam.AttendedRobotStatus.Activities",
+        "Version": "1.0.30"
+      },
+      "Assemblies": [
+        "C:\\Users\\Vishesh\\.nuget\\packages\\uipathteam.attendedrobotstatus.activities/1.0.30\\lib/AttendedRobotStatus.dll"
       ]
     }
   ],
@@ -530,6 +539,11 @@
           "Item2": "[1.0.0.18, )"
         }
       ]
+    },
+    "UiPathTeam.AttendedRobotStatus.Activities": {
+      "Id": "UiPathTeam.AttendedRobotStatus.Activities",
+      "Version": "1.0.30",
+      "Dependencies": []
     }
   }
 }
